@@ -19,8 +19,9 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #f85a40;
+  --color-primary: #190B02;
+  --color-secondary: #FFB901;
+  --color-violeta: #3F3D56;
 }
 
 /* Smooth scroll behavior */
@@ -64,7 +65,7 @@ section {
 }
 
 .sections-bg {
-  background-color: #f6f6f6;
+  background-color: var(--color-primary);
 }
 
 .section-header {
@@ -86,7 +87,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--color-primary);
+  background: var(--color-secondary);
   left: 0;
   right: 0;
   bottom: 0;
@@ -96,6 +97,14 @@ section {
 .section-header p {
   margin-bottom: 0;
   color: #6f6f6f;
+}
+
+.sections-bg  * .section-header h2 {
+  color: #fff;
+}
+
+.sections-bg  * .section-header p {
+  color: #EEE;
 }
 
 /*--------------------------------------------------------------
@@ -179,7 +188,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(248, 90, 64, 0.8);
+  background: var(--color-primary);
   color: #fff;
 }
 
@@ -248,7 +257,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: var(--color-primary);
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -328,7 +337,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: #f96f59;
+  color: var(--color-secondary);
 }
 
 .sticked-header-offset {
@@ -1030,7 +1039,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #00b6a1;
+  background: var(--color-secondary);
 }
 
 .services .service-item:hover h3 {
@@ -1151,6 +1160,7 @@ section {
 }
 
 .portfolio .portfolio-flters li {
+  color: #EEE;
   cursor: pointer;
   display: inline-block;
   padding: 0;
@@ -2008,7 +2018,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: var(--color-violeta);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -2040,7 +2050,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #009786;
+  background: var(--color-secondary);
 }
 
 .hero .icon-box:hover .title a,
