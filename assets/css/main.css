@@ -1202,6 +1202,9 @@ section {
   transition: 0.3s;
   position: relative;
   z-index: 1;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -1421,6 +1424,9 @@ section {
 .team .member img {
   border-radius: 10px;
   overflow: hidden;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .team .member .member-content {
@@ -2726,4 +2732,27 @@ section {
 
 .awards_pic{
     border-radius: 50%;
+}
+
+.countdown {
+  display: flex;
+  transform: scale(1);
+  color: #fff;
+  width: 100%;
+  justify-content: center;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.time h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1;
+  margin: 0 0 5px;
 }
