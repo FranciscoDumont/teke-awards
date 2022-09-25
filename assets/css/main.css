@@ -1196,6 +1196,8 @@ section {
   border-radius: 10px;
   height: 100%;
   overflow: hidden;
+  /* height: 400px;
+  width: 400px; */
 }
 
 .portfolio .portfolio-wrap img {
