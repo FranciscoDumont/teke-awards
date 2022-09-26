@@ -5,7 +5,6 @@ const minutes = document.getElementById('minutes');
 const seconds = document.getElementById('seconds');
 
 const newYearTime = new Date("2022/12/17");
-console.log(newYearTime)
 
 
 function updateCountdownTime() {

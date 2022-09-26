@@ -1065,8 +1065,10 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
+  height: 90px;
   border-radius: 50px;
   margin-right: 15px;
+  object-fit: cover;
 }
 
 .testimonials .testimonial-item h3 {
