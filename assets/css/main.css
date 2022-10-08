@@ -2789,3 +2789,7 @@ section {
     position:absolute;
 
 }
+
+html {
+    scroll-padding-top: 68px; /* height of sticky header */
+}
